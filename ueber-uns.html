@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Über uns – AK Antiquitäten & Kuriositäten</title>
+
+<style>
+  body {margin: 0;
+        background-color: #C4A484;
+        font-family: Georgia, serif;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;}
+
+  .header {background-color: white;
+           height: 120px;
+           display: flex;
+           align-items: center;
+           padding-left: 40px;
+           flex-shrink: 0;}
+
+  .logo {height: 80px;
+         margin-right: 15px;}
+
+  nav a {margin-right: 15px;
+         text-decoration: none;
+         color: #5a1a1a;
+         font-weight: bold;}
+
+  
+  .content {flex: 1;
+            display: flex;}
+
+  
+  .about-section {position: relative;
+                  flex: 1;
+                  padding: 40px;
+                  background-image: url("images/team.jpg");
+                  background-size: cover;
+                  background-position: center right;
+                  display: flex;
+                  align-items: flex-start;}
+
+  
+  .about-section::before {content: "";
+                          position: absolute;
+                          inset: 0;
+                          background-color: rgba(196, 164, 132, 0.88);}
+
+  
+  .about-content {position: relative;
+                  max-width: 600px;}
+
+ 
+  .footer {background-color: white;
+           padding: 25px 40px;
+           color: #5a1a1a;
+           font-size: 14px;
+           flex-shrink: 0;}
+</style>
+</head>
+
+<body>
+
+
+<div class="header">
+  <img src="Logo_AK2.JPG" alt="AK Logo" class="logo">
+  <nav>
+    <a href="index.html">Start</a>
+    <a href="angebote.html">Angebote</a>
+    <a href="ueber-uns.html">Über uns</a>
+    <a href="oeffnungszeiten.html">Öffnungszeiten</a>
+    <a href="thema.html">Philosophie</a>
+  </nav>
+</div>
+
+<!-- BRAUNER BEREICH (exakt zwischen den weißen Streifen) -->
+<div class="content">
+  <div class="about-section">
+
+    <div class="about-content">
+      <h1>Über uns</h1>
+
+      <p>
+        AK – Antiquitäten & Kuriositäten ist ein inhabergeführter
+        Antiquitätenhandel mit Leidenschaft für historische Objekte
+        und besondere Einzelstücke.
+      </p>
+
+      <p>
+        Seit vielen Jahren beschäftigen wir uns mit Möbeln,
+        Kunstobjekten und Kuriositäten aus verschiedenen Epochen.
+        Jedes Stück wird von uns sorgfältig ausgewählt und geprüft.
+      </p>
+
+      <p>
+        Unser Anspruch ist es, Geschichte erlebbar zu machen und
+        unseren Kundinnen und Kunden eine persönliche und ehrliche
+        Beratung zu bieten.
+      </p>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="footer">
+  <strong>AK – Antiquitäten & Kuriositäten</strong><br>
+  Musterstraße 12 · 12345 Musterstadt<br>
+  Telefon: 0123 / 456789 · E-Mail: info@ak-antiquitaeten.de<br><br>
+  Verantwortlich für den Inhalt:<br>
+  Anouk Kawkowski
+</div>
+
+</body>
+</html>
+
+
